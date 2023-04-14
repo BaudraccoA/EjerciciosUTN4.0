@@ -1,0 +1,61 @@
+.container-principal{
+    background-image: url(./bg-palm.jpg);
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 150px;
+}
+
+.encabezado{
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.links{
+    padding: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: underline;
+}
+
+.links a .check{
+    float: left;
+    width: 22px;
+    color: aqua;    
+}
+
+a{
+    background-color: whitesmoke;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    line-height: 32px;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+}
+
+.redes-sociales{
+    display: flex;
+    font-size: 50px;
+    height: 100px;
+    width:30px;
+    justify-content: space-around;
+    column-gap: 4rem;   
+}
+
+
